@@ -1,6 +1,18 @@
 {
     "name": "larv/markdown",
+    "description": "A laravel style markdown generator using static method calls",
+    "keywords": ["markdown", "laravel"],
+    "license": "MIT",
+    "authors": [
+    	{
+    		"name": "Ryan Tablada",
+    		"email": "ryan.tablada+dev@gmail.com"
+    	}
+    ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
     }
 }
