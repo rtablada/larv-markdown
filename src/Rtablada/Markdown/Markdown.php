@@ -1,5 +1,7 @@
 <?php
 
+namespace Rtablada;
+
 class Markdown
 {
 	public static function heading($level = '', $text = '')
