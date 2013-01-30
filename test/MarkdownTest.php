@@ -1,8 +1,8 @@
 <?php
 
-require_once dirname(__FILE__) . '/../' . 'src/larv/Markdown.php';
+// require 'src/rtablada/markdown/markdown.php';
 
-use \Larv;
+use Rtablada\Libraries\Markdown;
 
 class MarkdownTest extends PHPUnit_Framework_Testcase
 {

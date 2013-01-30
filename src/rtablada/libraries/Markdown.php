@@ -1,6 +1,4 @@
-<?php
-
-namespace Rtablada\Markdown;
+<?php namespace Rtablada\Libraries;
 
 class Markdown
 {
