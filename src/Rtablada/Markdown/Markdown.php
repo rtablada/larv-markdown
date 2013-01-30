@@ -1,6 +1,6 @@
 <?php
 
-namespace Rtablada;
+namespace Rtablada\Markdown;
 
 class Markdown
 {
