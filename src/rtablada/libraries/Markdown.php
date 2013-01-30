@@ -32,12 +32,16 @@ class Markdown
 		return $markdown . $text;
 	}
 
-	public static function ul( $text = '', $markdown = '*' )
+	public static function ul( $text = '', $markdown = '*', $depth = 1 )
 	{
 		if( ! ($markdown == '*' or $markdown == '+' or $markdown == '-' ) )
 			$markdown = '*';
 
 		$markdown .= ' ';
+
+		for ($i=1; $i < $depth; $i++) { 
+			$markdown = "\t" . $markdown;
+		}
 
 		if( gettype($text) == "array" )
 		{
@@ -54,9 +58,13 @@ class Markdown
 		return $markdown . $text;
 	}
 
-	public static function ol( $list = '', $start = 1 )
+	public static function ol( $list = '', $start = 1, $depth = 1 )
 	{
 		$markdown = $start . '. ';
+
+		for ($i=1; $i < $depth; $i++) { 
+			$markdown = "\t" . $markdown;
+		}
 
 		if( gettype($list) == "string" )
 		{
