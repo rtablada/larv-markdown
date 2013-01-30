@@ -1,5 +1,5 @@
 {
-    "name": "larv/markdown",
+    "name": "rtablada/markdown",
     "description": "A laravel style markdown generator using static method calls",
     "keywords": ["markdown", "laravel"],
     "license": "MIT",
