@@ -1,0 +1,6 @@
+{
+    "name": "larv/markdown",
+    "require": {
+        "php": ">=5.4.0"
+    }
+}
