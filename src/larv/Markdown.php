@@ -102,7 +102,7 @@ class Markdown
 
 	public static function em( $text, $markdown = '*')
 	{
-		if ( $markdown != '*' and $markdown != '_')
+		if ( $markdown != '*' and $markdown != '_' and $markdown != '**' and $markdown != '__')
 		{
 			$markdown = '*';
 		}
