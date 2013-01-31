@@ -2,6 +2,8 @@
 
 class Markdown
 {
+	public static $spacer = '=============';
+
 	public static function heading($level = '', $text = '')
 	{
 		$markdown = '';
