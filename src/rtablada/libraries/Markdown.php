@@ -2,7 +2,7 @@
 
 class Markdown
 {
-	public static $spacer = '=============';
+	const spacer = '=============';
 
 	public static function heading($level = '', $text = '')
 	{
