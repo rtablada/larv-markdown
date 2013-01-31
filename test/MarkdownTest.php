@@ -15,7 +15,7 @@ class MarkdownTest extends PHPUnit_Framework_Testcase
 	{
 		$this->string = 'Hello!';
 		$this->multiline = "Hello!\nThere";
-		$this->list = ['First', 'Second', 'Third'];
+		$this->list = arrray('First', 'Second', 'Third');
 		$this->link = 'http://www.google.com';
 	}
 
